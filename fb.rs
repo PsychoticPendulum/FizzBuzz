@@ -2,7 +2,7 @@ fn main() {
 	let fizz: &str = "Fizz";
 	let buzz: &str = "Buzz";
 
-	for i in 1..100 {
+	for i in 0..255 {
 		let mut result: String = "".to_owned();
 		if i % 3 == 0 { result.push_str(fizz); }
 		if i % 5 == 0 { result.push_str(buzz); }
